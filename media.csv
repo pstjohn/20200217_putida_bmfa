@@ -1,0 +1,7 @@
+Sample Name,muconic acid (mM),2-ketogluconaic acid (gmM),Gluconic acid (mM),Fructose (mM),Glucose (mM),Media
+t0 glucose,0.0,0.0,0.0,0.0,44.02204976856942,glu
+t0 gluconate,0.0,0.0,27.268812776687415,0.0,0.0,glc
+t0 fructose/glucose,0.0,0.0,0.0,16.584162266634806,20.072729113656745,fg
+t0 glucose + gluconate,0.0,0.0,13.288954045194412,0.0,19.763619687056476,gg
+frutose t0,0.0,0.0,0.0,29.62776771302547,0.0,f
+"t0 glucose, fructose, gluconate",0.0,0.0,8.25840774061,9.829202429828673,12.210073224461128,gfg
