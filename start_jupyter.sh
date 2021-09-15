@@ -3,7 +3,7 @@
 module unload
 unset LD_PRELOAD
 
-module load singularity-container/3.2.1
+module load singularity-container
 
-singularity exec /projects/bpms/pstjohn/containers/emll.simg start.sh jupyter lab --no-browser --ip=0.0.0.0
+singularity exec -B /scratch,/projects /projects/bpms/pstjohn/containers/emll.simg start.sh jupyter lab --no-browser --ip=0.0.0.0
 
